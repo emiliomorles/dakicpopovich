@@ -1,7 +1,7 @@
 body {
     font-family:Arial, Helvetica, sans-serif;
     font-size:1em;
-    background-color: rgb(204, 204, 204)
+    background-color: rgb(255, 255, 255)
 }
 
 img, video, object, embed {
@@ -9,10 +9,10 @@ img, video, object, embed {
 }
 
 h1 {
-    color: #fff;
+    color: #000000;
     font-family:Arial, Helvetica, sans-serif;
     font-size:1.5em;
-    text-shadow:4px 4px 4px rgb(0, 0, 0);
+    text-shadow:4px 4px 4px rgb(79, 124, 140);
     padding-top: 40px;
     padding-left: 45%;
 
@@ -50,14 +50,14 @@ caso before y after. Osea, no hacer esto .clearfix: before*/
 }
 
 a:hover {
-    background-color: rgb(56, 124, 59)
+    background-color: rgb(79, 124, 140)
 }
 
 /*Menu de navegacion*/
 #menu {
     height: 40px;
     width: 100%;
-    background-color: rgb(56, 124, 59);
+    background-color: rgb(79, 124, 140);
     font-weight: bold;
     border-bottom: 7px solid #000000;
 }
@@ -71,7 +71,7 @@ a:hover {
 #menu li {
     display: inline;
     float: left;
-    background-color: rgb(56, 124, 59);
+    background-color: rgb(79, 124, 140);
 }
 
 #menu a {
@@ -105,19 +105,9 @@ a:hover {
     display: none;
 }
 
-/*slideshow*/
-#slideshow {
-    width: 100%;
-    height: auto;
-}
-
-.slide {
-    width: 100%;
-    height: auto;
-}
-
 /*imagenes*/
 #D-imag {
+    padding-left: 50px;
     width: 400px;
     height: 40px;
     margin: auto;
@@ -133,18 +123,19 @@ a:hover {
 
 #pp {
     text-indent: 35px;
+    text-align: justify;
 }
 
 #col-1 {
     width: 50%;
     float: left;
-    background-color: #ffffff;
+    background-color: #8e9172;
 }
 
 #col-2 {
     width: 40%;
     float: left;
-    background-color: rgb(56, 124, 59);
+    background-color: rgb(79, 124, 140);
 }
 
 #col-1, #col-2 {
@@ -155,7 +146,7 @@ a:hover {
 footer {
     height: 40px;
     background-color: #000000;
-    margin-top: 200px;
+    margin-top: 100px;
     color: rgb(255, 255, 255);
     font-weight: 800;
     font-size: 25px;
