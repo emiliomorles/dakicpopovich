@@ -9,7 +9,7 @@ img, video, object, embed {
 }
 
 h1 {
-    color: #000000;
+    color: rgb(0, 0, 0);
     font-family:Arial, Helvetica, sans-serif;
     font-size:1.5em;
     text-shadow:4px 4px 4px rgb(79, 124, 140);
@@ -49,12 +49,12 @@ caso before y after. Osea, no hacer esto .clearfix: before*/
     border-top: 3px;
 }
 
-figure.container {
-    width: 283px;
+#logo:hover {
+    opacity: 0.85;
 }
 
-a:hover {
-    background-color: rgb(79, 124, 140)
+figure.container {
+    width: 283px;
 }
 
 /*Menu de navegacion*/
@@ -113,6 +113,7 @@ a:hover {
 #D-imag {
     width: 400px;
     height: 40px;
+    margin-top: 40px;
     margin: auto;
     position: static;
     opacity: 0.7;
